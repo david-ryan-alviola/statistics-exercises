@@ -1,5 +1,8 @@
 # Helper function to evaluate hypothesis
 def evaluate_hypothesis(null_hypothesis, alternative_hypothesis, alpha, p_value, t_value, tails = "two"):
+    print(f"t:  {t_value}, p:  {p_value}, a:  {alpha}")
+    print()
+
     def print_null_hypothesis():
         print(f"We fail to reject the null hypothesis:  {null_hypothesis}")
 
